@@ -26,16 +26,16 @@ for row in range(5):
         grid[row].append(0) # all values set to 0
 
 # Set hard-coded start locations for player and icons:
-player = pygame.image.load('../img/player.jpg').convert()
+player = pygame.image.load('./img/player.jpg').convert()
 playerCoord = [0,0]
 grid[0][0] = 1 # player icon; value of 1 is player location
-icon0 = pygame.image.load('../img/icon0.jpg').convert()
+icon0 = pygame.image.load('./img/icon0.jpg').convert()
 grid[0][2] = 10 # icon 0 location set by a value of 10
-icon1 = pygame.image.load('../img/icon1.jpg').convert()
+icon1 = pygame.image.load('./img/icon1.jpg').convert()
 grid[3][1] = 11 # icon 1 location set by a value of 11
-icon2 = pygame.image.load('../img/icon2.jpg').convert()
+icon2 = pygame.image.load('./img/icon2.jpg').convert()
 grid[2][2] = 12 # icon 2 location set by a value of 12
-icon3 = pygame.image.load('../img/icon3.jpg').convert()
+icon3 = pygame.image.load('./img/icon3.jpg').convert()
 grid[4][3] = 13 # icon 3 location set by a value of 13
 
 # Connect as Client
